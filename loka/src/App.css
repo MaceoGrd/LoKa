@@ -1,0 +1,90 @@
+body {
+  font-family: 'MyCustomFont', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e4e2dd;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e4e2dd;
+  color: black;
+  padding: 10px;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 10px 10px;
+  margin-right: 100px;
+  font-size: 16px;
+  border: none;
+  background-color: #d186e6;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #b765c1;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+  max-width: 150px;
+  margin-right: 20px;
+}
+
+.article-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.article-price {
+  font-size: 1.5em;
+  color: #333;
+}
